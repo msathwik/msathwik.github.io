@@ -57,6 +57,15 @@ html {
   background: yellow;
 }
 
+nav#mynav > ul > li{
+    color: green;
+    list-style-type: none;
+}
+
+.navmenu {
+    float: left;
+    padding: 10px;
+}
 
 .aside {
     background: aqua;
@@ -109,11 +118,19 @@ html {
 </style>
 </head>
 <body>
-
-<div class="header">
-  <h1>MOM Computers</h1>
+<div class="row">
+  <div class="header">
+    <h1>MOM Computer Institutions</h1>
+    <nav id="mynav">
+        <ul >
+          <li class="navmenu"><a href="index.html">Home</a></li>
+          <li class="navmenu"><a href="about.html">About</a></li>
+          <li class="navmenu"><a href="services.html">Services</a></li>
+          <li class="navmenu"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </div>
 </div>
-
 <div class="row">
   <div class="col-3 col-s-3 menu">
     <ul>
